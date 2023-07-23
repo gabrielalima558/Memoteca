@@ -26,3 +26,6 @@ Arquivo de API mock ->
 -se der sucesso vai aparecer o endpoint no log
 -agora com a api pronta prepare o código para receber as informações
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Lembre - se 
+quando tiver a api local tem que ter dois git bashes para executar a api e a aplicação angular
