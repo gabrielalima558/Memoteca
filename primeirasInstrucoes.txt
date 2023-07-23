@@ -1,0 +1,8 @@
+Setup Angular -> https://angular.io/guide/setup-local
+Baixar o Angular cli é importante para que consiga utilizar comandos que permita a criação de projetos e 
+componentes
+para instalar o comando é npm install -g @angular/cli@14.0.0
+
+buildar o projeto -> vá até dentro do diretório do projeto e digite: ng serve
+criar novo componente -> ng g c componentes/rodape
+
