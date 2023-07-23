@@ -4,7 +4,8 @@
     <!--Diretiva para chamar outra tela é routerLink e deve passar o nome da rota que está lá depois do / -->
     <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
   </header>
-  <div class="mural">
+  <!--ngIf é umaa diretiva estrutural de decisão-->
+  <div class="mural" *ngIf="listaPensamentos.length > 0, else semPensamentos">
     <!--ngFor é uma diretiva estrutural-->
     <div *ngFor="let pensamento of listaPensamentos">
       <!--o @Input pensamento é o que está dentro do colchetes e o que está dentro das aspas é a variavel local let que eu criei aqui-->
@@ -12,3 +13,9 @@
     </div>
   </div>
 </section>
+<!--esse ng-template funciona é o else para aquele if ali em cima-->
+<ng-template #semPensamentos>
+  <div class="ff-inter sem-pensamentos">
+    <p>Ainda não há pensamentos cadastrados</p>
+  </div>
+</ng-template>

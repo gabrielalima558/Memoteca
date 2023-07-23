@@ -5,4 +5,24 @@ para instalar o comando é npm install -g @angular/cli@14.0.0
 
 buildar o projeto -> vá até dentro do diretório do projeto e digite: ng serve
 criar novo componente -> ng g c componentes/rodape
+criar novo service -> ng g s componentes/pensamento, por padrão ele acrescenta o .service
 
+::::::::::::::::::::::::::::::::::IMPORTANTE:::::::::::::::::::::::::::::::::::::::::::::::
+Arquivo de API mock -> 
+- para criar o arquivo, coloque uma pasta chamada "backend" dentro da pasta raíz do projeto
+- pelo git bash, navegue até ela
+- dê o comando npm init -y
+- no diretório da pasta "backend" será criado um arquivo package.json 
+- não faça nada ainda nesse arquivo
+- só vai precisar alterar o campo scripts depois que tiver criado o seu arquivo
+
+*Se ainda não tiver instalado o json server, aqui vai o comando: 
+- npm i json-server
+
+-crie seu arquivo json de mock no diretório backend
+
+-depois de alterar o package.json colocando o seu arquivo no scripts
+-dentro do repositório backend coloque o comando -> npm start
+-se der sucesso vai aparecer o endpoint no log
+-agora com a api pronta prepare o código para receber as informações
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

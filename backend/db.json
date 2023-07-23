@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que vc veio",
+      "autoria": "Gabi",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Batatinha quando nasce",
+      "autoria": "Gabi",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Se esparrama pelo chão",
+      "autoria": "Gabi",
+      "modelo": "modelo3"
+    }
+  ]
+}
