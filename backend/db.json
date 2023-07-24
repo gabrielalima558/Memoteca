@@ -1,16 +1,10 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Gabi",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
-      "conteudo": "Batatinha quando nasce",
-      "autoria": "Gabi",
-      "modelo": "modelo2"
+      "conteudo": "tal pensamento",
+      "autoria": "Gabi Lima ",
+      "modelo": "modelo1"
     },
     {
       "id": 3,
@@ -19,16 +13,10 @@
       "modelo": "modelo3"
     },
     {
-      "conteudo": "Aprendendo Angular",
-      "autoria": "Evinha",
+      "conteudo": "hello world",
+      "autoria": "Gabriela Lima",
       "modelo": "modelo3",
       "id": 4
-    },
-    {
-      "conteudo": "Um pensamento aí",
-      "autoria": "Gabriela Lima",
-      "modelo": "modelo2",
-      "id": 5
     }
   ]
 }
